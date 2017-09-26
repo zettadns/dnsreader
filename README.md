@@ -33,9 +33,9 @@ In the simplest example i have the following set up.
 
 `./nodes.txt` this is a text file which should contain a list of all the anycast nodes you expect to be sending packets
         
-##probes
+## probes
     
-#####domain check: 
+##### domain check: 
 `./client.py --nsid -s 192.0.2.1 -d 198.51.100.1 -Q example.com`
 this will send an soa query, with the nsid bit set, for example.com to 198.51.100.1.  the response will be sent to 192.0.2.1
 
